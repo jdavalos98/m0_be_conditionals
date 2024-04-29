@@ -53,21 +53,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This line prints the result of the comparison: is four is less than nine. It will print as true.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Prints the result of the comparison: is four is less than the amount of books. It will print false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Prints the result of the comparison: is the amount of friends greater than the amount of siblings. It will print ture 
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Prints the result of the comparison: is the amount of attendees not equal to the amount of meals. It will print true 
 
 
 #-------------------
