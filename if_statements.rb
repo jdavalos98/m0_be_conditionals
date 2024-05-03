@@ -42,7 +42,7 @@ end
 # to make sure both conditions can be achieved.
 
 num_quarters = 5
-if num_quarters >= 1
+if num_quarters > 1
 puts "I have enough money for a gumball"
 else 
 puts "I don't have enough money for a gumball"
@@ -73,3 +73,12 @@ elsif cups_of_flour = 2 && has_sauce = true
 elsif cups_of_flour = 3 && has_sauce = true
   puts "I can make pizza"
 end  
+
+
+cups_of_flour = 4 
+has_sauce = true
+if cups_of_flour < 2 || has_sauce = false 
+  puts "I cannot make pizza"
+elsif cups_of_flour >= 2 && has_sauce = true
+  puts "I can make pizza"
+end
